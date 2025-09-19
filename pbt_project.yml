@@ -1,0 +1,58 @@
+name: rocky.mohr
+description: installation
+version: 0.73.812
+author: null
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: rockymohr
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2025-09-19 23:26:17'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-09-19 23:26:17'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-09-19T23:26:17.79093Z'
+  name: plibMaven
+  version: 8.14.0-SNAPSHOT
+  id: '952471150'
+  createdAt: '2025-09-19T23:26:17.79093Z'
+  type: plibMaven
+projectDependencies:
+  '100':
+    projectUID: 100
+    projectName: antony.gulgowski
+    repositoryPath: gitUri=http://gitserver:3000/dev_oyXvAIzB_team_210/dev_oyXvAIzB_project_100.git&subPath=
+    version: antony.gulgowski/3.4.9.472
+    isDefault: false
+    author: null
+    createdAt: '2025-09-19 23:26:15'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
